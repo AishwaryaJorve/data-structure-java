@@ -6,6 +6,7 @@ public class _08FibonacciWithRecursion {
     public static void main(String[] args) {
         int  result=fibRecursive(10);
         System.out.println("Result is "+result);
+        System.out.println("Checing stash");
     }
 
     //    fibonacci series function uisng for loop
