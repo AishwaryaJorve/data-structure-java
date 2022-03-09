@@ -11,8 +11,10 @@ public class _01BinarySearchItterative {
     public static void main(String[] args) {
         int[] a={4,7,9,10,11,14,17,20,22,24,27,29,35,38,39};
         high=a.length-1;
+        long start = System.nanoTime();
         int index=binarySearch(a,lower,high,27);
-        System.out.println(index);
+        long end = System.nanoTime();
+        System.out.println(index+" Within time "+(end-start)+" nano seconds");
     }
 
     static int binarySearch(int[] a,int lower,int high,int key){
