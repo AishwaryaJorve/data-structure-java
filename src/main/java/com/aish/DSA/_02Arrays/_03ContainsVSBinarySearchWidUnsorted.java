@@ -1,7 +1,7 @@
 package com.aish.DSA._02Arrays;
 /*
   @Author Aishwarya Jorve
- * What is the Difference between Contains method of collections and binarySearch
+ * What is the Difference between Contains and binarySearch method of collections
  */
 
 import java.util.ArrayList;
