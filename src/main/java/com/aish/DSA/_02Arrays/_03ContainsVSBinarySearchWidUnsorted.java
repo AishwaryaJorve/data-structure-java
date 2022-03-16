@@ -27,7 +27,7 @@ public class _03ContainsVSBinarySearchWidUnsorted {
         }
 
         int key = arr.get(30000);
-
+        String s="Aishwarya";
         // Using contains Method
         long start = System.nanoTime();
         arr.contains(key);
