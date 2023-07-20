@@ -30,16 +30,24 @@ public class LinkedList
         second.next=third;
         third.next=fourth;
 
-        LinkedList.printnode();    //   2-->3-->4-->5-->null
+
+        LinkedList.printnode(LinkedList.head);    //   2 3 4 5
     }
 
-    private static void printnode() {
-        Node current=head;
-        while(current!=null){
-            System.out.print(current.data+"-->");
-            current=current.next;
+    private static void printnode(Node node) {
+        if(node==null){
+            return;
         }
-        System.out.print("null");
+        printnode(node.next);
+        System.out.print(node.data+" ");    // 5 4 3 2   Reverse order using head - recursion
+
+
+
+//        Node current=head;
+//        while(current!=null){
+//            System.out.print(current.data+" ");
+//            current=current.next;
+//        }
 
     }
 
