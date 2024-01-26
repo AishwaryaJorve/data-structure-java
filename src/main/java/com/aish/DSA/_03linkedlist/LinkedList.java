@@ -1,4 +1,4 @@
-package com.aish.DSA._01linkedlist;
+package com.aish.DSA._03linkedlist;
 
 public class LinkedList
 {
